@@ -26,8 +26,9 @@ You can install required MCPs by yourself or you just use my MCPs hosted in GCP 
 I recommend to use claude-3.7-sonnet-thinking model.
 
 ## Advantage
-- It could be automatically extended by utilizing all available MCP servers for you.
-- You are free to change [guide.md](https://raw.githubusercontent.com/bobbercheng/mcp-deep-research/main/guide.md) to add your customization.
+- Extendable: It could be automatically extended by utilizing all available MCP servers for you. You can safely connect to your internal data/knowledge. OpenAI and Perplexity cannot do it.
+- Flexible: You can specify how long you want to spend on research. OpenAI and Perplexity cannot do it.
+- Customized: You are free to change [guide.md](https://raw.githubusercontent.com/bobbercheng/mcp-deep-research/main/guide.md) to add your customization.
 
 ## Limit
 - It depends on MCP server capabilities. E.g. if Brave Search cannot parse search content result as markdown correctly, you may not get correct resolve. The solution is to review your MCP server capability, maybe replace some to more powerful version or add complementary MCP servers.
