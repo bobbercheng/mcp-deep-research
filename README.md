@@ -1,6 +1,6 @@
 # mcp-deep-research
 
-TBH I'm impressed by OpenAI deep research, but I challenge the sale value of OpenAI pro subscription $200 per month just for it. This is MCP version of deep research. I tried 
+I'm impressed by OpenAI deep research, but it's very limited. This is my MCP version of deep research with more extendability and customization. I tried 
 - [David's deep-research](https://github.com/dzhng/deep-research)
 - [Perplexity deep research](https://www.perplexity.ai/)
 - OpenAI deep research with Pro subscription
@@ -27,8 +27,7 @@ I recommend to use claude-3.7-sonnet-thinking model.
 
 ## Advantage
 - Extendable: It could be automatically extended by utilizing all available MCP servers for you. You can safely connect to your internal data/knowledge. OpenAI and Perplexity cannot do it.
-- Flexible: You can specify how long you want to spend on research. OpenAI and Perplexity cannot do it.
-- Customized: You are free to change [guide.md](https://raw.githubusercontent.com/bobbercheng/mcp-deep-research/main/guide.md) to add your customization.
+- Customized: You can specify how long you want to spend on research. OpenAI and Perplexity cannot do it. You are free to change [guide.md](https://raw.githubusercontent.com/bobbercheng/mcp-deep-research/main/guide.md) to add your customization.
 
 ## Limit
 - It depends on MCP server capabilities. E.g. if Brave Search cannot parse search content result as markdown correctly, you may not get correct resolve. The solution is to review your MCP server capability, maybe replace some to more powerful version or add complementary MCP servers.
