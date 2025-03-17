@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "url": "http://34.123.61.175:47963/sse"
+    },
+    "fetch": {
+      "url": "http://34.123.61.175:44827/sse"
+    },
+    "brave-search": {
+      "url": "http://34.123.61.175:47863/sse"
+    },
+    "webresearch": {
+      "url": "http://34.123.61.175:22841/sse"
+    },
+    "time": {
+      "url": "http://34.123.61.175:50122/sse"
+    }
+  }
+}
