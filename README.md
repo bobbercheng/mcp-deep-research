@@ -12,7 +12,7 @@ I thinks a chain of LLM deep diving conversations with web search and external t
 Why MCP instead of a in-house LLM agent? The big reason is extensibility. Most in-house agent hard-codes prompts even with template style. There is development requirement to use external tool. MCP just offload development of extension to LLM and MCP servers.
 
 ## required MCP servers
-- Search. It could be [Brave Search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search), [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server) or Google search.
+- Search. It could be [Brave Search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search), [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server) or webresearch with Google.
 - Fetch, https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
 - Sequential Thinking, https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
 - Time, https://github.com/modelcontextprotocol/servers/tree/main/src/time
